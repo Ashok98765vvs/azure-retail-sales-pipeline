@@ -1,0 +1,25 @@
+# Azure Retail Sales Pipeline - Python Dependencies
+# For local development and Azure Databricks clusters
+
+# PySpark (local mode only - Databricks clusters have this pre-installed)
+pyspark==3.4.1
+
+# Azure Storage SDK for ADLS Gen2 access
+azure-storage-blob==12.19.0
+azure-identity==1.15.0
+
+# Data manipulation and utilities
+pandas==2.1.4
+numpy==1.26.3
+
+# Logging and monitoring
+python-json-logger==2.0.7
+
+# Testing (optional for local unit tests)
+pytest==7.4.3
+pytest-spark==0.6.0
+
+# Code quality (optional)
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
